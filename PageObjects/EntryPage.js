@@ -6,11 +6,11 @@ class EntryPage{
         this.homeBtn= page.getByRole('link', { name: 'Home' });
     }
 
-    async goto(){
-        await this.page.goto('https://medimention.com/');
-    }
+    // async goto(){
+    //     await this.page.goto('https://medimention.com/');
+    // }
 
-    async clickHome(){
-        await this.homeBtn.click();
-    }
+    // async clickHome(){
+    //     await this.homeBtn.click();
+    // }
 }

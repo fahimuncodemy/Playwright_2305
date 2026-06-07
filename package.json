@@ -2,7 +2,10 @@
   "name": "project_1pmwe_2305",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:chromium": "npx playwright test TC_02_Register.spec.js --project=chromium --headed",
+    "test:firefox": "npx playwright test TC_02_Register.spec.js --project=firefox --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

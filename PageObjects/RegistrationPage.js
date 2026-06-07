@@ -14,17 +14,17 @@ class RegistrationPage {
         this.registerBtn= page.getByRole('button', { name: 'Register' });
     }
 
-    async registerNewUser(BName, UName, UEmail, UPass){
-        await this.dropButton.click();
-        await this.dropOption.nth(1).click();
-        await this.BussName.fill(BName);
-        await this.Username.fill(UName);
-        await this.email.fill(UEmail);
-        await this.password.fill(UPass);
-        await this.confirmPassword.fill(UPass);
-        await this.agreeTick.click();
-        await this.registerBtn.click();
-    }
+    // async registerNewUser(BName, UName, UEmail, UPass){
+    //     await this.dropButton.click();
+    //     await this.dropOption.nth(1).click();
+    //     await this.BussName.fill(BName);
+    //     await this.Username.fill(UName);
+    //     await this.email.fill(UEmail);
+    //     await this.password.fill(UPass);
+    //     await this.confirmPassword.fill(UPass);
+    //     await this.agreeTick.click();
+    //     await this.registerBtn.click();
+    // }
 
     // async dropAction(){
     //     await this.dropButton.click();

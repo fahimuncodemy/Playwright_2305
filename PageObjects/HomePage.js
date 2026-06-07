@@ -6,11 +6,11 @@ class HomePage{
         this.login= page.getByRole('link', { name: 'Login' });
     }
 
-    async clickRegister(){
-        await this.registerBtn.click();
-    }
+    // async clickRegister(){
+    //     await this.registerBtn.click();
+    // }
 
-    async clickLogin(){
-        await this.login.click();
-    }
+    // async clickLogin(){
+    //     await this.login.click();
+    // }
 }
